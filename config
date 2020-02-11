@@ -47,6 +47,10 @@ bindsym --release Mod3+j exec --no-startup-id xdotool key "Left"
 bindsym --release Mod3+h exec --no-startup-id xdotool key "Home"
 bindsym --release Mod3+semicolon exec --no-startup-id xdotool key "End"
 
+# for switching tabs of the terminal in webstorm
+bindsym --release Mod3+Mod1+l exec --no-startup-id xdotool key "Right"
+bindsym --release Mod3+Mod1+j exec --no-startup-id xdotool key "Left"
+
 bindsym --release Mod3+Control+l exec --no-startup-id xdotool key "Right"
 bindsym --release Mod3+Control+j exec --no-startup-id xdotool key "Left"
 
