@@ -38,6 +38,8 @@ focus_follows_mouse no
 
 exec ~/Documents/karabiner.sh
 
+bindsym $mod+Control+a exec pavucontrol
+
 bindsym --release Mod3+i exec --no-startup-id xdotool key "Up"
 bindsym --release Mod3+k exec --no-startup-id xdotool key "Down"
 bindsym --release Mod3+l exec --no-startup-id xdotool key "Right"
